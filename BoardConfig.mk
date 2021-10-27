@@ -16,7 +16,7 @@ TARGET_OTA_ASSERT_DEVICE := chiron
 # TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # SELinux
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+#BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit from proprietary files
 include vendor/xiaomi/chiron/BoardConfigVendor.mk
